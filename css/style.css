@@ -1,0 +1,35 @@
+body{
+  background-color: aquamarine;
+}
+h4{
+  color: silver;
+  font-family: verdana;
+  text-align: center;
+  font-size: 20px;
+}
+
+div{
+  background-color: #89e9a4;
+  border: 2px dashed orange;
+  display: inline-block;
+  width: 160px;
+  height: 165px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+  
+
+}
+p::first-letter {
+  font-size: 200%;
+  color: orange;
+  font-family: verdana;
+}
+p{
+  font-family: verdana;
+  font-style: italic;
+  text-align: justify;
+  font-size: 13px;
+  padding: 5px;
+}
