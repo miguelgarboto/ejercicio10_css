@@ -1,22 +1,28 @@
+@font-face {
+  font-family: fuente_titulo;
+  src: url(../fuentes/noto-sans-kr-v12-latin-500.woff);
+}
+
 body{
   background-color: aquamarine;
 }
 h4{
   color: silver;
-  font-family: verdana;
+  font-family: fuente_titulo;
   text-align: center;
-  font-size: 20px;
+  font-size: 26px;
+  
 }
 
 div{
   background-color: #89e9a4;
-  border: 2px dashed orange;
-  display: inline-block;
+  border: 2px dotted orange;
+  float: left;
   width: 160px;
-  height: 165px;
+  height: 160px;
   padding: 3px;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 15px;
+  margin-top: 20px;
   
   
 
@@ -24,7 +30,8 @@ div{
 p::first-letter {
   font-size: 200%;
   color: orange;
-  font-family: verdana;
+  font-family: fuente_titulo;
+  
 }
 p{
   font-family: verdana;
@@ -32,4 +39,19 @@ p{
   text-align: justify;
   font-size: 13px;
   padding: 5px;
+}
+
+#cabecera1, #cabecera2, #cabecera3, #cabecera4, #cabecera5, #cabecera6, #cabecera7, #cabecera8, #cabecera9{
+  background-color: orange;
+  float: left;
+  width: 120px;
+  height: 18px;
+  margin-top: -14px;
+  padding: 1px;
+  color: aqua;
+  font-family: verdana;
+  font-size: 18px;
+  font-style: italic;
+  
+  
 }
